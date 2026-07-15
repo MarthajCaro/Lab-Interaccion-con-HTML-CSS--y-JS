@@ -1,41 +1,30 @@
 body {
-  background-color: #bcc4dc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-family: Arial;
+    background: linear-gradient(135deg, #0f172a, #a6b1d1);
+    font-family: Arial;
+    margin: 0;
 }
 
-/* 🔥 ESTE ES EL CUADRO */
 .card {
-  background-color: #1e2a5a;
-  padding: 30px;
-  border-radius: 15px;
-  width: 350px;
-  text-align: center;
-  color: white;
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    background-color: #161a20;
+    width: 350px;
+    margin: 80px auto;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
 }
 
 h1 {
-  color: #a78bfa;
+    color: #60a5fa;
 }
 
 button {
-  margin: 8px;
-  padding: 10px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
+    background-color: #334155;
+    color: white;
 }
 
-input {
-  padding: 5px;
-  margin-bottom: 10px;
-}
-
-#valor {
-  font-size: 40px;
-  margin: 15px;
+button:hover {
+    background-color: #60a5fa;
+    color: black;
 }

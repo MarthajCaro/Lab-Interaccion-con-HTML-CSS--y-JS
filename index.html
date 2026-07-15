@@ -9,22 +9,33 @@
 </head>
 
 <body>
+
+<div class="card">
+
     <h1>Contador de Energía ⚡</h1>
 
-<p>¿Escribe tu nombre?</p>
-<input type="text" id="nombre">
+    <div class="grupo">
+    <label>¿Cuál es tu nombre?</label>
+    <input type="text" id="nombre">
+    </div>
 
-<p>Nivel de energía:</p>
-<p id="valor">0</p>
+    <div class="grupo">
+    <p>Nivel de energía:</p>
+    <p id="valor">0</p>
+    </div>
 
-<button onclick="sumar()">⚡ Cargar energía</button>
-<button onclick="restar()">🔋 Gastar energía</button>
+    <div class="botones">
+    <button onclick="sumar()">⚡ Cargar energía</button>
+    <button onclick="restar()">🔋 Gastar energía</button>
 
-<button onclick="evaluar()">Ver estado</button>
+    <button onclick="verEstado()">Ver estado</button>
+    </div>
+    
 
-<p id="resultado"></p>
+    <p id="resultado"></p>
 
-    <script src="script.js"></script>
+</div>
 
+<script src="script.js"></script>
 </body>
 </html>
