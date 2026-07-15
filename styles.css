@@ -1,0 +1,41 @@
+body {
+  background-color: #bcc4dc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial;
+}
+
+/* 🔥 ESTE ES EL CUADRO */
+.card {
+  background-color: #1e2a5a;
+  padding: 30px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+h1 {
+  color: #a78bfa;
+}
+
+button {
+  margin: 8px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#valor {
+  font-size: 40px;
+  margin: 15px;
+}
