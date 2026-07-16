@@ -1,41 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contador de Energía</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-
-<div class="card">
-
-    <h1>Contador de Energía ⚡</h1>
+    <div class="card">
+    <h1>Simulador de Energía del Día ⚡</h1>
 
     <div class="grupo">
-    <label>¿Cuál es tu nombre?</label>
-    <input type="text" id="nombre">
+        <label>Bienvenido (a)</label>
+        <input type="text" id="nombre" placeholder="Tu nombre aquí" />
     </div>
 
     <div class="grupo">
-    <p>Nivel de energía:</p>
-    <p id="valor">0</p>
+        <p>Nivel de energía:</p>
+        <p id="valor">0</p>
     </div>
 
-    <div class="botones">
-    <button onclick="sumar()">⚡ Cargar energía</button>
-    <button onclick="restar()">🔋 Gastar energía</button>
+    <div class="grupo">
+        <p>¿Qué hiciste hoy?</p>
+        <label><input type="checkbox" id="comer" /> Comer</label>
+        <label><input type="checkbox" id="dormir" /> Dormir</label>
+        <label><input type="checkbox" id="ejercicio" /> Ejercicio</label>
+        <label><input type="checkbox" id="estudiar" /> Estudiar</label>
+        <label><input type="checkbox" id="trabajar" /> Trabajar</label>
+        <br />
+        <button onclick="calcularEnergia()">Calcular energía</button>
 
-    <button onclick="verEstado()">Ver estado</button>
+        <p id="resultado"></p>
     </div>
-    
+    </div>
 
-    <p id="resultado"></p>
-
-</div>
-
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+    </body>
 </html>
